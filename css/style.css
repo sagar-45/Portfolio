@@ -1,0 +1,190 @@
+html
+{
+	scroll-behavior:smooth;
+}
+.navbar
+{
+	background:rgba(0,0,0,0.6) !important;
+}
+.offset:before
+{
+	display:block;
+	content:"";
+	height:10px;;
+}
+.navbar .navbar-nav .nav-link
+{
+	color:#fff !important;
+	padding:10px !important;
+}
+.navbar .navbar-nav .active
+{
+	color:#000!important;
+	background-color:#1ebba3;
+}
+.navbar .navbar-nav .nav-link:hover
+{
+	color:#1ebba3 !important;
+}
+#home img
+{
+	height:100vh;
+	width:100%;
+
+}
+.heading-content
+{
+	position:absolute;
+	top:35%;
+	width:100%;
+	max-width:100%;
+}
+.heading-content h1
+{
+	color:#1ebba3;
+	font-size:4em;
+}
+.heading-content h5
+{
+	color:#fff;
+	font-size:2em;
+}
+.heading-content button
+{
+	font-size: 20px;
+	color: #1ebba3;
+	padding: 1%;
+	background-color: #3f3f3f;
+	border-radius:10px;
+	margin-top: 2%;
+}
+.heading-content button:hover
+{
+	background-color: #1ebba3;
+	color: #fff;
+}
+.container h1
+{
+	color:#1ebba3;
+}
+#about
+{
+	text-align: center;
+}
+#about img
+{
+	width: 300px;
+	height:40vh;
+	background-color:#1ebba3;
+	border-radius:50%;
+	border:3px solid #3f3f3f;
+}
+#about .container p
+{
+	width:50%;
+}
+#services .card 
+{
+	height: 100%;
+}
+#services .card,#project .card
+{
+	border-color:#1ebba3;
+	background-color:#3f3f3f;
+	color:#fff;
+}
+#project .card a
+{
+	text-align: center;
+}
+#project .card button
+{
+	color: #3f3f3f;
+	padding: 1%;
+	background-color: #fff;
+	border-radius:10px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+#project .card:hover button
+{
+	color:#fff;
+	background-color: #3f3f3f;
+}
+#services .card:hover,#project .card:hover
+{
+	background-color:#1ebba3;
+	border-color:#000;
+	color:#000;
+}
+#services .card i,#project .card i
+{
+	font-size:50px;
+	text-align:center;
+	padding-top:10px;
+}
+#services .card h3,#project .card h3
+{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#contact 
+{
+	font-size: 20px;
+}
+#contact .container form
+{
+	width: 450px;
+}
+#contact .btn
+{
+	border-color:#1ebba3;
+	color:#000;
+}
+#contact .btn:hover
+{
+	background-color:#000;
+	color:#1ebba3;
+}
+#footer
+{
+	background-color:#3f3f3f;
+	padding-bottom: 10px;
+}
+#footer img
+{
+	height:30px;
+	width:30px;
+	border:3px solid #1ebba3;
+	margin:20px 0px 20px 30px;
+	border-radius:50%;
+}
+#footer i
+{
+	background:#000;
+	border-radius:50%;
+	padding:10px;
+}
+#footer a
+{
+	color:#fff;
+	margin-left:20px;
+}
+#footer i:hover
+{
+	background:#1ebba3;
+}
+#footer p
+{
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+@media(max-width:500px)
+{
+	#contact .container form
+	{
+		width: 80%;
+	}	
+}
