@@ -73,8 +73,8 @@ html
 }
 #about img
 {
-	width: 50%;
-	height:50%;
+	width: 300px;
+	height:40vh;
 	background-color:#1ebba3;
 	border-radius:50%;
 	border:3px solid #3f3f3f;
